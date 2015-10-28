@@ -1,0 +1,16 @@
+{{#extend "layout-base"}}
+	{{#content "body"}}
+            <div id="whoiam">
+                <h1>Dondrey Taylor</h1>
+                <p>I'm the CTO and Co-Founder of <a href="http://minichatapp.com/" target="_blank">MiniChat</a> with an uncontrollable urge to <a href="http://github.com/dondreytaylor" target="_blank">build things</a>. Simplistic user experiences and clean code makes me feel all warm and cuddly inside.</p>
+            </div>
+            <img id="whatilooklike" src="/assets/img/dondreytaylor.gif">
+            <footer>
+                <div>
+                    <a href=""></a>
+                </div>
+                <small id="thisismine"></small>
+                <script>document.getElementById("thisismine").innerHTML = "&copy;  " + (new Date()).getFullYear() + " copyright"</script>
+            </footer>
+	{{/content}}
+{{/extend}}
