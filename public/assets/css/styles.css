@@ -1,100 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
-/* ==========================================================================
-Typography
-========================================================================== */
-p {
-  font-size: 15px;
-  line-height: 29px;
-  color: rgba(28, 54, 83, 0.6);
-  padding-bottom: 20px; }
-
-h1 {
-  font-size: 60px; }
-
-h2 {
-  font-size: 40px;
-  font-weight: 300;
-  color: #3d4351; }
-
-h3 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #3d4351; }
-
-h4 {
-  font-size: 18px; }
-
-h5 {
-  font-size: 15px;
-  color: #3d4351;
-  text-transform: uppercase;
-  font-weight: 500; }
-
-.btn {
-  font-size: 13px;
-  border: solid 2px;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -o-border-radius: 40px;
-  border-radius: 40px;
-  display: inline-block;
-  text-transform: uppercase; }
-
-.btn:hover, .btn:focus {
-  color: white;
-  border-color: #ff5274;
-  background-color: #ff5274; }
-
-.btn-white {
-  font-size: 13px;
-  border: solid 2px;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -o-border-radius: 40px;
-  border-radius: 40px;
-  display: inline-block;
-  border-color: white; }
-
-.btn-white:hover, .btn-white:focus {
-  color: #ff5274;
-  border-color: #ff5274; }
-
-.btn-fill {
-  color: white;
-  border: solid 2px #ff5274;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -o-border-radius: 40px;
-  border-radius: 40px;
-  display: inline-block;
-  text-transform: uppercase;
-  background-color: #ff5274; }
-
-.btn-fill:hover, .btn-fill:focus {
-  color: white;
-  background-color: #d7405d;
-  border-color: #d7405d; }
-
-.btn-small {
-  padding: 8px 40px; }
-
-.btn-large {
-  padding: 15px 40px; }
-
-.btn-margin-right {
-  margin-right: 20px; }
-
-section.intro, section.features-extra, section.sign-up {
-  background: white; }
-
-section.features, section.blog-intro, section.blog {
-  background: #f3f4f8; }
-
 #whatilooklike {
   display: block;
   width: 20rem;
@@ -104,15 +10,17 @@ section.features, section.blog-intro, section.blog {
   text-align: center; }
   #whoiam h1 {
     font-family: Nunito;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    font-size: 2.3rem; }
   #whoiam p {
     font-size: 1rem;
     font-family: Merriweather;
     max-width: 35rem;
     margin: 0 auto;
-    line-height: 2; }
+    line-height: 2;
+    padding: 0 2rem; }
   #whoiam a, #whoiam strong {
-    color: brown;
+    color: #854f37;
     padding: 0.5rem;
     background-color: #fafafa;
     font-weight: 600;
@@ -120,8 +28,27 @@ section.features, section.blog-intro, section.blog {
     text-decoration: none; }
 
 footer {
-  margin-top: 2rem;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 5rem; }
+  footer #social {
+    margin-top: .5rem;
+    margin-bottom: .5rem; }
+    footer #social a {
+      font-size: 2rem; }
+      footer #social a:hover {
+        color: #854f37;
+        -webkit-transition: .5s ease all;
+        -moz-transition: .5s ease all;
+        -ms-transition: .5s ease all;
+        -o-transition: .5s ease all;
+        transition: .5s ease all; }
+  footer a:hover {
+    color: #854f37;
+    -webkit-transition: .5s ease all;
+    -moz-transition: .5s ease all;
+    -ms-transition: .5s ease all;
+    -o-transition: .5s ease all;
+    transition: .5s ease all; }
   footer #thisismine, footer a {
     display: inline-block;
     vertical-align: middle;
