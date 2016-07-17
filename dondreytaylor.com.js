@@ -43,7 +43,7 @@ var Path     = require('path');
 var Hapi = require('hapi');
 var server = new Hapi.Server();
 server.connection({ 
-	port: 80, 
+	port: 8882, 
 	routes: { cors: { credentials: true } }
 });
 
