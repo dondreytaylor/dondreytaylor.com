@@ -9,7 +9,7 @@
 $color: #854f37;
 
 #whatilooklike {
-  display: block; 
+  display: block;
   width: 20rem;
   margin: 0 auto;
 }
@@ -17,23 +17,23 @@ $color: #854f37;
 #whoiam {
   text-align: center;
 
-  h1 { 
+  h1 {
     font-family: Nunito;
     margin-bottom: 1rem;
     font-size: 2.3rem;
     color: $color;
   }
 
-  p { 
+  p {
     font-size: 1rem;
     font-family: Merriweather;
     max-width: 35rem;
     margin: 0 auto;
-    line-height: 2;
+    line-height: 3;
     padding: 0 2rem;
   }
 
-  a, strong { 
+  a, strong {
     color: $color;
     padding: 0.5rem;
     background-color: #fafafa;
@@ -43,19 +43,19 @@ $color: #854f37;
   }
 }
 
-footer { 
-    
+footer {
+
     text-align: center;
     margin-bottom: 5rem;
 
-    #social { 
+    #social {
          margin-top: .5rem;
          margin-bottom: .5rem;
-         
-         a { 
+
+         a {
           font-size: 2rem;
 
-           &:hover { 
+           &:hover {
             color: $color;
             -webkit-transition: .5s ease all;
             -moz-transition: .5s ease all;
@@ -66,7 +66,7 @@ footer {
         }
     }
 
-    a:hover { 
+    a:hover {
         color: $color;
          -webkit-transition: .5s ease all;
          -moz-transition: .5s ease all;
@@ -75,7 +75,7 @@ footer {
          transition: .5s ease all;
     }
 
-    #thisismine,a  { 
+    #thisismine,a  {
         display: inline-block;
         vertical-align: middle;
         color: #999;
